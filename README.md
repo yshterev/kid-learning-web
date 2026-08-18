@@ -27,6 +27,10 @@ Save your work with Git — read [GIT.md](GIT.md).
 
 ## Starting projects (do them in order)
 
+Each project has a checklist. **Check every box** before you start the next project. Stretch goals are extra — fun, but not required.
+
+When all boxes are checked, save with Git one last time, then move on.
+
 ### 1. About Me page
 
 **Folder:** `projects/01-about-me/`
@@ -34,6 +38,17 @@ Save your work with Git — read [GIT.md](GIT.md).
 **Build:** A page with your name, a short intro, a list of hobbies, and a link to something you like.
 
 **You’ll learn:** headings, paragraphs, lists, links — the skeleton of a web page.
+
+**Checkpoints (all required):**
+
+- [ ] `index.html` is in `projects/01-about-me/`
+- [ ] Your name is in a heading (`<h1>` or `<h2>`)
+- [ ] A short intro paragraph about you
+- [ ] A list of at least 3 hobbies
+- [ ] A link that opens when you click it
+- [ ] Page opens in the browser with no broken layout
+- [ ] Saved with Git (`status` → `add` → `commit`)
+- [ ] You can explain what a heading, paragraph, list, and link do
 
 **Stretch:** Add a photo of yourself, a pet, or a drawing.
 
@@ -45,6 +60,16 @@ Save your work with Git — read [GIT.md](GIT.md).
 
 **You’ll learn:** a CSS file, colors, fonts, and spacing.
 
+**Checkpoints (all required):**
+
+- [ ] `index.html` and `styles.css` are in `projects/02-fan-page/`
+- [ ] CSS file is linked from the HTML
+- [ ] Page uses at least 2 colors (background, text, or both)
+- [ ] Title looks different from body text (bigger or different font)
+- [ ] Spacing makes the page easy to read (not everything stuck together)
+- [ ] Saved with Git
+- [ ] You can explain what a CSS rule does (selector + property + value)
+
 **Stretch:** Make the title big and fun. Pick colors that match the topic.
 
 ### 3. Card gallery
@@ -54,6 +79,15 @@ Save your work with Git — read [GIT.md](GIT.md).
 **Build:** 4–6 cards on one page (hobbies, pets, games, or an invitation-style card). Each card has a picture or title, a short text, and a neat box around it.
 
 **You’ll learn:** layout — putting boxes in a row, borders, padding, and making the page look tidy.
+
+**Checkpoints (all required):**
+
+- [ ] At least 4 cards on the page
+- [ ] Each card has a title or image and short text
+- [ ] Each card has a visible box (border or background)
+- [ ] Cards sit in a row or neat grid — layout looks tidy
+- [ ] Saved with Git
+- [ ] You can explain the difference between padding and margin
 
 **Stretch:** When you hover a card, give it a colored border or make it slightly bigger.
 
@@ -65,6 +99,15 @@ Save your work with Git — read [GIT.md](GIT.md).
 
 **You’ll learn:** JavaScript, buttons, and changing text on the page.
 
+**Checkpoints (all required):**
+
+- [ ] `script.js` is linked from the HTML
+- [ ] A button changes text on the page when clicked
+- [ ] At least 3 jokes or facts ready to show
+- [ ] Clicking again shows a different joke or fact
+- [ ] Saved with Git
+- [ ] You can explain what happens when you “listen” for a click
+
 **Stretch:** A second button that changes the background color.
 
 ### 5. Tiny clicker game
@@ -74,6 +117,14 @@ Save your work with Git — read [GIT.md](GIT.md).
 **Build:** A score that goes up when you click (pet a cat, catch stars, tap cookies — you pick the theme).
 
 **You’ll learn:** remembering a number, updating the screen, and a little game logic.
+
+**Checkpoints (all required):**
+
+- [ ] Score starts at 0 and is visible on the page
+- [ ] Clicking the button adds 1 to the score
+- [ ] The number on screen updates every time you click
+- [ ] Saved with Git
+- [ ] You can explain what a variable is and why the game needs one
 
 **Stretch:** A bonus every 10 clicks, or a reset button.
 
@@ -88,6 +139,17 @@ Save your work with Git — read [GIT.md](GIT.md).
 **Start simple:** One button: “Show me Pikachu” (or a random Pokémon).
 
 **Then try:** A text box where you type a name (like `eevee` or `snorlax`) and a “Search” button. If the name is wrong, show a friendly message like “Couldn’t find that Pokémon.”
+
+**Checkpoints (all required):**
+
+- [ ] Data comes from the internet with `fetch` (not typed only in HTML)
+- [ ] Pokémon **name** shows on the page
+- [ ] Pokémon **picture** shows on the page
+- [ ] At least one extra fact shows (type, height, or a stat)
+- [ ] Page runs on `http://localhost` (not a double-clicked `file://` page)
+- [ ] Typing a wrong name shows a friendly message (not a blank page)
+- [ ] Saved with Git
+- [ ] You can explain the four steps: ask the API → wait → read the answer → put it on the page
 
 **Other fun APIs** (same skills, different theme):
 
