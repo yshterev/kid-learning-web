@@ -17,6 +17,8 @@ Save your work with Git — read [GIT.md](GIT.md).
 - Git is a save habit from day one (`GIT.md`). `git push` / GitHub can wait until you set it up.
 - For project 6, use a local preview (`http://localhost`), not a double-clicked file.
 
+
+
 ## How to use Cursor
 
 1. Say what you want to build in your own words.
@@ -24,6 +26,8 @@ Save your work with Git — read [GIT.md](GIT.md).
 3. Change one thing at a time, then refresh.
 4. Don’t paste code you can’t explain.
 5. When it works, save with Git (`GIT.md`).
+
+
 
 ## Starting projects (do them in order)
 
@@ -41,14 +45,14 @@ When all boxes are checked, save with Git one last time, then move on.
 
 **Checkpoints (all required):**
 
-- [ ] `index.html` is in `projects/01-about-me/`
-- [ ] Your name is in a heading (`<h1>` or `<h2>`)
-- [ ] A short intro paragraph about you
-- [ ] A list of at least 3 hobbies
-- [ ] A link that opens when you click it
-- [ ] Page opens in the browser with no broken layout
-- [ ] Saved with Git (`status` → `add` → `commit`)
-- [ ] You can explain what a heading, paragraph, list, and link do
+- [x] `index.html` is in `projects/01-about-me/`
+- [x] Your name is in a heading (`<h1>` or `<h2>`)
+- [x] A short intro paragraph about you
+- [x] A list of at least 3 hobbies
+- [x] A link that opens when you click it
+- [x] Page opens in the browser with no broken layout
+- [x] Saved with Git (`status` → `add` → `commit`)
+- [x] You can explain what a heading, paragraph, list, and link do
 
 **Stretch:** Add a photo of yourself, a pet, or a drawing.
 
@@ -164,3 +168,4 @@ When all boxes are checked, save with Git one last time, then move on.
 - Finish 1–3 before the JavaScript projects. Do 4–5 before the API project.
 - If the page looks wrong, check HTML/CSS. If a click does nothing, check JavaScript. If the API project is empty, check the browser console and that you’re on localhost.
 - Never put secret API keys in this project. Stick to public, no-key APIs first.
+
