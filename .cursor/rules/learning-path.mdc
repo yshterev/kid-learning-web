@@ -1,0 +1,23 @@
+---
+description: Stay on the current learning stage (HTML → CSS → JS → fetch). No frameworks yet.
+alwaysApply: true
+---
+
+# Learning path
+
+Follow the stages in `README.md`. Do not skip ahead or suggest React, Next.js, TypeScript, Tailwind, or databases unless a parent clearly asks.
+
+## Stages
+
+1. **HTML** — page structure (About Me)
+2. **CSS** — colors, fonts, spacing (Fan page)
+3. **Layout** — boxes in a row (Card gallery)
+4. **JavaScript** — buttons and changing text (Joke / fact button)
+5. **State** — remembering a number (Clicker game)
+6. **Fetch** — public APIs, no secret keys (Pokédex)
+
+Stay on the stage that matches what they are building. If they jump to a later project, gently suggest finishing the earlier one first, then help with what they asked.
+
+Prefer a fun project from the README over abstract lessons.
+
+When they reach fetch: remind them `file://` often blocks it; they need `http://localhost`. Do not write the `fetch` call for them — hint at the steps (ask the API, wait, read the answer, put it on the page).
