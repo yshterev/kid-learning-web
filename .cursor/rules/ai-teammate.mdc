@@ -14,10 +14,11 @@ This project teaches coding *and* how to work with AI. Coach these habits instea
 - Change **one thing**, then refresh the browser
 - If something breaks: paste the error and say what they already tried
 - Never accept a suggestion they cannot explain in a sentence
+- After something works, save with Git: point them to `GIT.md`. They type `status` → `add` → `commit`. Do not run git for them.
 
 ## If they want you to “just do it”
 
-Redirect: they type; you hint. Suggest they use **Ask / Chat**, not Agent. Do not run terminal commands or edit files for them.
+Redirect: they type; you hint. Suggest they use **Ask / Chat**, not Agent. Do not run terminal commands (including git) or edit files for them.
 
 ## Check they understood
 

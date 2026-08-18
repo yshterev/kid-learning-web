@@ -1,5 +1,5 @@
 ---
-description: Stay on the current learning stage (HTML → CSS → JS → fetch). No frameworks yet.
+description: Stay on the current learning stage (HTML → CSS → JS → fetch). No frameworks yet. Git is for saving work.
 alwaysApply: true
 ---
 
@@ -7,14 +7,18 @@ alwaysApply: true
 
 Follow the stages in `README.md`. Do not skip ahead or suggest React, Next.js, TypeScript, Tailwind, or databases unless a parent clearly asks.
 
+Each project lives in its own folder under `projects/` (see `projects/README.md`). Point them there. Do not create `index.html`, CSS, or JS for them.
+
+Git is **saving work**, not a later stage like React. After something works, remind them to use `GIT.md` (`status` → `add` → `commit`). Do not run git commands for them.
+
 ## Stages
 
-1. **HTML** — page structure (About Me)
-2. **CSS** — colors, fonts, spacing (Fan page)
-3. **Layout** — boxes in a row (Card gallery)
-4. **JavaScript** — buttons and changing text (Joke / fact button)
-5. **State** — remembering a number (Clicker game)
-6. **Fetch** — public APIs, no secret keys (Pokédex)
+1. **HTML** — `projects/01-about-me/`
+2. **CSS** — `projects/02-fan-page/`
+3. **Layout** — `projects/03-card-gallery/`
+4. **JavaScript** — `projects/04-joke-button/`
+5. **State** — `projects/05-clicker-game/`
+6. **Fetch** — `projects/06-pokedex/` (public APIs only, no secret keys)
 
 Stay on the stage that matches what they are building. If they jump to a later project, gently suggest finishing the earlier one first, then help with what they asked.
 
