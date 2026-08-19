@@ -66,13 +66,13 @@ When all boxes are checked, save with Git one last time, then move on.
 
 **Checkpoints (all required):**
 
-- [ ] `index.html` and `styles.css` are in `projects/02-fan-page/`
-- [ ] CSS file is linked from the HTML
-- [ ] Page uses at least 2 colors (background, text, or both)
-- [ ] Title looks different from body text (bigger or different font)
-- [ ] Spacing makes the page easy to read (not everything stuck together)
-- [ ] Saved with Git
-- [ ] You can explain what a CSS rule does (selector + property + value)
+- [x] `index.html` and `styles.css` are in `projects/02-fan-page/`
+- [x] CSS file is linked from the HTML
+- [x] Page uses at least 2 colors (background, text, or both)
+- [x] Title looks different from body text (bigger or different font)
+- [x] Spacing makes the page easy to read (not everything stuck together)
+- [x] Saved with Git
+- [x] You can explain what a CSS rule does (selector + property + value)
 
 **Stretch:** Make the title big and fun. Pick colors that match the topic.
 
@@ -86,12 +86,12 @@ When all boxes are checked, save with Git one last time, then move on.
 
 **Checkpoints (all required):**
 
-- [ ] At least 4 cards on the page
-- [ ] Each card has a title or image and short text
-- [ ] Each card has a visible box (border or background)
-- [ ] Cards sit in a row or neat grid — layout looks tidy
-- [ ] Saved with Git
-- [ ] You can explain the difference between padding and margin
+- [x] At least 4 cards on the page
+- [x] Each card has a title or image and short text
+- [x] Each card has a visible box (border or background)
+- [x] Cards sit in a row or neat grid — layout looks tidy
+- [x] Saved with Git
+- [x] You can explain the difference between padding and margin
 
 **Stretch:** When you hover a card, give it a colored border or make it slightly bigger.
 
