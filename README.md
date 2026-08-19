@@ -1,4 +1,4 @@
-# Kid Learning Web
+﻿# Kid Learning Web
 
 A playground for learning modern web development: **HTML** (structure), **CSS** (looks), **JavaScript** (clicks), and at the end **loading live data from the internet**.
 
@@ -150,7 +150,7 @@ When all boxes are checked, save with Git one last time, then move on.
 - [ ] Pokémon **name** shows on the page
 - [ ] Pokémon **picture** shows on the page
 - [ ] At least one extra fact shows (type, height, or a stat)
-- [ ] Page runs on `http://localhost` (not a double-clicked `file://` page)
+- [ ] Page runs on `http://localhost` (not a double-clicked `file://` page) — see [LOCALHOST.md](LOCALHOST.md)
 - [ ] Typing a wrong name shows a friendly message (not a blank page)
 - [ ] Saved with Git
 - [ ] You can explain the four steps: ask the API → wait → read the answer → put it on the page
@@ -169,3 +169,97 @@ When all boxes are checked, save with Git one last time, then move on.
 - If the page looks wrong, check HTML/CSS. If a click does nothing, check JavaScript. If the API project is empty, check the browser console and that you’re on localhost.
 - Never put secret API keys in this project. Stick to public, no-key APIs first.
 
+### 7. 🏰 Discover Plovdiv — Mini Boss
+
+**Folder:** `projects/07-discover-plovdiv/`
+
+This is your first real website. Multiple pages, multiple APIs, one shared style. Use everything you learned in projects 1–6.
+
+Each page is its own HTML file. They are linked together with normal `<a>` links — no special tools needed.
+
+**Folder layout:**
+
+```
+projects/07-discover-plovdiv/
+  index.html       ← home / landing page
+  weather.html
+  map.html
+  wikipedia.html
+  photos.html
+  history.html
+  styles.css       ← shared styles for all pages
+  weather.js
+  map.js
+  wikipedia.js
+  photos.js
+  history.js
+```
+
+One JS file per page — each one only does the fetch for that page.
+
+---
+
+**Page 1 — Home (`index.html`)**
+
+A landing page that links to all the other pages. Nice layout, Plovdiv title, a background photo or color. No fetch — pure HTML and CSS. It ties the whole site together.
+
+**Page 2 — Weather (`weather.html`)**
+
+**API:** [Open-Meteo](https://open-meteo.com/) — free, no key needed.
+Use Plovdiv coordinates: `latitude=42.15&longitude=24.75`
+
+Show: current temperature, weather condition, and an emoji you pick yourself (☀️ 🌧️ ❄️).
+
+**Page 3 — Map (`map.html`)**
+
+**Tool:** Embed an [OpenStreetMap](https://www.openstreetmap.org/) iframe centered on Plovdiv. No fetch needed — just an `<iframe>` tag.
+
+Stretch: use [Nominatim](https://nominatim.openstreetmap.org/) to search for a landmark by name and show its coordinates.
+
+**Page 4 — About Plovdiv (`wikipedia.html`)**
+
+**API:** [Wikipedia REST API](https://en.wikipedia.org/api/rest_v1/) — no key needed.
+URL: `https://en.wikipedia.org/api/rest_v1/page/summary/Plovdiv`
+
+Show: the opening paragraph, the thumbnail image, and a link to the full Wikipedia page.
+
+**Page 5 — Photos (`photos.html`)**
+
+A photo gallery of Plovdiv. Find 6–8 good photos online, download them into a `photos/` subfolder, and build a grid — just like project 3 (Card gallery) but with real images and captions.
+
+Stretch: use the [Wikimedia Commons API](https://commons.wikimedia.org/w/api.php) to load photos dynamically.
+
+**Page 6 — History and Facts (`history.html`)**
+
+Plovdiv is one of the oldest continuously inhabited cities in Europe. Write 6–8 interesting facts as a JS array and show one randomly each time the page loads (like project 4 — Joke button, but real facts).
+
+Stretch: fetch the Wikipedia summary for a specific landmark (Ancient Theatre, Nebet Tepe, the Old Town) and show it on click.
+
+---
+
+**Checkpoints (all required):**
+
+- [ ] All 6 pages exist and are linked from `index.html`
+- [ ] Navigation links work — you can go from any page to any other page
+- [ ] `styles.css` is linked in every HTML file and the site looks consistent
+- [ ] Weather page fetches live data from Open-Meteo and shows temperature + emoji
+- [ ] Wikipedia page fetches and shows the summary paragraph and thumbnail
+- [ ] History page shows a random fact on every page load
+- [ ] Map page has a working embedded map centered on Plovdiv
+- [ ] Photos page has a neat gallery with at least 6 images and captions
+- [ ] All JS is split — one `.js` file per page, each file only does its own fetch
+- [ ] No secret API keys anywhere in the code
+- [ ] Runs on `http://localhost` (not a double-clicked file) — see [LOCALHOST.md](LOCALHOST.md)
+- [ ] Saved with Git after each page is finished
+- [ ] You can explain what each API returns and how you got the data onto the page
+
+**Stretch:** Add a shared `<nav>` bar that appears on every page with links to all sections.
+*(Notice how you have to copy it into every HTML file by hand — remember this feeling for when you learn Astro.)*
+
+
+## Tips
+
+- Finish projects 1-6 before starting project 7.
+- If the page looks wrong, check HTML/CSS. If a click does nothing, check JavaScript. If the API project is empty, check the browser console and that you're on localhost.
+- Never put secret API keys anywhere. Stick to public, no-key APIs first.
+- Project 7 is big — finish one page at a time. Each page is its own small project.
