@@ -13,9 +13,10 @@ Save your work with Git — read [GIT.md](GIT.md).
 - Keep the kid in **Ask / Chat**. Agent is built to edit files for them, which fights Tutor Mode.
 - Turn off or avoid auto-run terminal and auto-apply of big edits.
 - Sit nearby for the first sessions. New chats pick up the project rules automatically.
-- Don’t introduce React, Next.js, TypeScript, Tailwind, or a database until the six projects are done.
+- Don’t introduce React, Next.js, TypeScript, Tailwind, or a database until the early projects and JS Gym feel solid.
 - Git is a save habit from day one (`GIT.md`). `git push` / GitHub can wait until you set it up.
-- For project 6, use a local preview (`http://localhost`), not a double-clicked file.
+- For projects 6–7, use a local preview (`http://localhost`) — see [LOCALHOST.md](LOCALHOST.md).
+- After project 7, **JS Gym** (`projects/08-js-gym`) is a good next step to strengthen JavaScript with tests.
 
 
 
@@ -256,10 +257,59 @@ Stretch: fetch the Wikipedia summary for a specific landmark (Ancient Theatre, N
 **Stretch:** Add a shared `<nav>` bar that appears on every page with links to all sections.
 *(Notice how you have to copy it into every HTML file by hand — remember this feeling for when you learn Astro.)*
 
+### 8. 🏋️ JS Gym
+
+**Folder:** `projects/08-js-gym/`
+
+Practice core JavaScript with short exercises and automated tests. Write a function → run tests → see ✅ or ❌.
+
+This is **not** a web page. You use Node in the Cursor terminal. Full instructions: [projects/08-js-gym/README.md](projects/08-js-gym/README.md)
+
+**You’ll learn:** functions, numbers, `if`, arrays, loops, objects — the building blocks behind your joke button, clicker, and Pokédex.
+
+**How to run (from this folder):**
+
+```
+cd projects\08-js-gym
+npm test
+```
+
+One exercise only:
+
+```
+npm test -- 1
+```
+
+**Exercises:**
+
+| # | File | Concept |
+| --- | --- | --- |
+| 1 | `exercises/01-greet.js` | Strings + functions |
+| 2 | `exercises/02-add.js` | Numbers |
+| 3 | `exercises/03-is-even.js` | Booleans + `if` |
+| 4 | `exercises/04-first-item.js` | Arrays |
+| 5 | `exercises/05-sum.js` | Loops |
+| 6 | `exercises/06-biggest.js` | Loops + comparing |
+| 7 | `exercises/07-pokemon-name.js` | Objects |
+| 8 | `exercises/08-clicker-bonus.js` | Mini challenge |
+
+**Checkpoints (all required):**
+
+- [ ] You can run `npm test` from `projects\08-js-gym`
+- [ ] Exercises 01–04 all show ✅
+- [ ] Exercises 05–08 all show ✅
+- [ ] You only edited files in `exercises/` (not `tests/`)
+- [ ] You can explain what a **function**, **variable**, **array**, and **if** do in your own words
+- [ ] Saved with Git when a group of exercises passes
+
+**Rules:** Ask the tutor for hints, not the full answer. Read the test message when something fails.
+
+---
 
 ## Tips
 
-- Finish projects 1-6 before starting project 7.
+- Finish projects 1–7 before JS Gym if you can — Gym makes the JS behind those sites clearer.
 - If the page looks wrong, check HTML/CSS. If a click does nothing, check JavaScript. If the API project is empty, check the browser console and that you're on localhost.
 - Never put secret API keys anywhere. Stick to public, no-key APIs first.
 - Project 7 is big — finish one page at a time. Each page is its own small project.
+- In JS Gym: change one exercise, then run the tests again.

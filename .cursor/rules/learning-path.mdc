@@ -1,5 +1,5 @@
 ---
-description: Stay on the current learning stage (HTML → CSS → JS → fetch). No frameworks yet. Git is for saving work.
+description: Stay on the current learning stage (HTML → CSS → JS → fetch → JS Gym). No frameworks yet. Git is for saving work.
 alwaysApply: true
 ---
 
@@ -7,7 +7,7 @@ alwaysApply: true
 
 Follow the stages in `README.md`. Do not skip ahead or suggest React, Next.js, TypeScript, Tailwind, or databases unless a parent clearly asks.
 
-Each project lives in its own folder under `projects/` (see `projects/README.md`). Point them there. Do not create `index.html`, CSS, or JS for them.
+Each project lives in its own folder under `projects/`. Point them there. Do not create `index.html`, CSS, or JS for them — except for JS Gym, where they only edit files in `exercises/` (never fill in solutions for them).
 
 Git is **saving work**, not a later stage like React. After something works, remind them to use `GIT.md` (`status` → `add` → `commit`). Do not run git commands for them.
 
@@ -19,9 +19,13 @@ Git is **saving work**, not a later stage like React. After something works, rem
 4. **JavaScript** — `projects/04-joke-button/`
 5. **State** — `projects/05-clicker-game/`
 6. **Fetch** — `projects/06-pokedex/` (public APIs only, no secret keys)
+7. **Mini Boss site** — `projects/07-discover-plovdiv/`
+8. **JS Gym** — `projects/08-js-gym/` (functions, tests, Node — hint only, never write the exercise solution)
 
 Stay on the stage that matches what they are building. If they jump to a later project, gently suggest finishing the earlier one first, then help with what they asked.
 
 Prefer a fun project from the README over abstract lessons.
 
 When they reach fetch: remind them `file://` often blocks it; they need `http://localhost`. Do not write the `fetch` call for them — hint at the steps (ask the API, wait, read the answer, put it on the page).
+
+For JS Gym: tell them to run `npm test` or `npm test -- 3` from `projects/08-js-gym`. If a test fails, help them read the expected vs got message. Never paste a full working function into an exercise file.

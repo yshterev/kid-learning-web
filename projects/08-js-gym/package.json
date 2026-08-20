@@ -1,0 +1,9 @@
+{
+  "name": "js-gym",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive JavaScript exercises with tests",
+  "scripts": {
+    "test": "node run-tests.js"
+  }
+}

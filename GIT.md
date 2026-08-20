@@ -14,6 +14,8 @@ Put each project in its own folder inside `projects/`:
 - `projects/04-joke-button/`
 - `projects/05-clicker-game/`
 - `projects/06-pokedex/`
+- `projects/07-discover-plovdiv/`
+- `projects/08-js-gym/`
 
 When you start a project:
 
