@@ -1,0 +1,43 @@
+body {
+    background-color: #55a1df;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #f9f9f9;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.menu a {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+.menu a.menu__active {
+    color: #a73460;
+}
+
+.menu a:hover {
+    color: #a73460;
+}
+.banner {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
