@@ -40,4 +40,8 @@ p {
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
+} iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
