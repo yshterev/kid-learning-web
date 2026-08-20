@@ -12,5 +12,3 @@ button.addEventListener("click", function () {
     const randomIndex = Math.floor(Math.random() * jokes.length);
     jokeText.textContent = jokes[randomIndex];
 });
-
-
